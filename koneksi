@@ -1,0 +1,12 @@
+<?php
+$server="localhost";
+$username="root";
+$password="";
+$database="db_mahasiswa";
+
+mysql_connect("localhost,root") or die ("koneksi tidak di temukan");
+mysql_select_db("db_mahasiswa") or die ("database tidak di temukan");
+
+
+
+?>
